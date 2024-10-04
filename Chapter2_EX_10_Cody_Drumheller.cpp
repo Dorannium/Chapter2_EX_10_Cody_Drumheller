@@ -17,15 +17,15 @@ using namespace std;
 
     int main()
 {
-        double gallonsOfGas = 15.0;
-        double milesDriven = 375.0;
+        double gallonsOfGas;
+        double milesDriven;
+        cout << " Enter the number of gallons of gas used: ";
+        cin >> gallonsOfGas;
+        cout << " Enter number of miles driven: ";
+        cin >> milesDriven;
         double mpg = milesDriven / gallonsOfGas;
-        cout << "the car gets " << mpg << " miles per gallon. " << endl;
+        cout << " The car gets " << mpg << " miles per gallon. " << endl;
         return 0;
-
-
-    
-
 }
 
 
